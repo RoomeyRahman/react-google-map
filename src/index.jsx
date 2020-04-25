@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Map from './component/map'
 
-const element = <h1>I am going to integrate google map in my react project</h1>;
+ReactDOM.render(<Map />, document.getElementById("root"));
 
-ReactDOM.render(element, document.getElementById("root"));
+
